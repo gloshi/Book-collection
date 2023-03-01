@@ -1,0 +1,25 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "app for demonstrations books",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "gloshi",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "eslint": "^8.35.0",
+    "rollup": "^3.17.3",
+    "rollup-plugin-import-css": "^3.1.0"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}
